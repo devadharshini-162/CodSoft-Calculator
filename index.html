@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="calci.css">
+        <title>DD Calculator</title>
+    </head>
+    <body>
+        <div id="base" >
+            <input type="text" id="ans">
+            <br>
+            <div id="buttons">
+            <input type="button" value = 'AC' onclick="AllClear()">
+            <input type="button" value='%' onclick="Input('%')">
+            <input type="button" value='DEL' onclick="Delete()">
+            <input type="button" value='/' onclick="Input('/')">
+            <br>
+            <input type="button" value='7' onclick="Input('7')">
+            <input type="button" value='8' onclick="Input('8')">
+            <input type="button" value='9' onclick="Input('9')">
+            <input type="button" value='x' onclick="Input('*')">
+            <br>
+            <input type="button" value='4' onclick="Input('4')">
+            <input type="button" value='5' onclick="Input('5')">
+            <input type="button" value='6' onclick="Input('6')">
+            <input type="button" value='-' onclick="Input('-')">
+            <br>
+            <input type="button" value='1' onclick="Input('1')">
+            <input type="button" value='2' onclick="Input('2')">
+            <input type="button" value='3' onclick="Input('3')">
+            <input type="button" value='+' onclick="Input('+')">
+            <br>
+            <input type="button" value='00' onclick="Input('00')">
+            <input type="button" value='0' onclick="Input('0')">
+            <input type="button" value='.' onclick="Input('.')">
+            <input type="button" value='=' onclick="Answer()">
+        </div>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
